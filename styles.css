@@ -1,0 +1,381 @@
+body {
+    background: #FAF3E3;
+    color: #222222;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+main {
+    flex: 1; 
+    margin-bottom: 5px;
+}
+header img {
+    border-radius: 50%;
+}
+h2 {
+    color: #c00;
+}
+
+h5.card-title{
+    color: white;
+    text-decoration: white;
+}
+
+.btn-danger {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 15px 1px rgba(255, 217, 0, 0.918); 
+}
+
+.logo-cuadrado {
+    width: 250px; 
+    height: auto; 
+    object-fit: cover; 
+    border-color:rgba(255, 217, 0, 0.918);
+    border-radius: 10px; 
+    display: block;
+    margin: auto;
+    border: 4px solid #27AE60;
+    background: #fff;
+}
+
+/*.btn-3d {
+    display: inline-block;
+    text-decoration: none; 
+    color: white;
+    font-size: 1rem; 
+    background: linear-gradient(145deg, #e63946, #b22234);
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 7px 1px rgba(255, 217, 0, 0.918); 
+    transition: transform 0.2s, box-shadow 0.2s;
+    
+  }*/
+  
+  .btn-3d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    min-height: 60px; /* Asegura que todos tengan la misma altura */
+    background: linear-gradient(145deg, #e63946, #b22234);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3), 0px 7px 1px rgba(255, 217, 0, 0.918); 
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none; 
+    color: white;
+    font-size: 1rem; 
+}
+
+  
+  .btn-3d:active {
+    transform: translateY(4px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0px 5px 10px rgba(240, 205, 6, 0.897); 
+  }
+  
+
+.menu-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: index 1000;
+    padding: 1rem;
+    background-color: #022407;
+    color: #b87333 !important;
+}
+.Horario {
+    color: #27AE60;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+footer a {
+    color: #b87333;
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #fff;
+}
+
+.btn-whatsapp {
+    width: 100%;
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    padding: 5px 10px;
+}
+
+.header-principal {
+    background: linear-gradient(90deg, #C0392B 60%, #27AE60 100%);
+    color: #fff;
+}
+
+.categoria {
+    color: #C0392B;
+    background: #fff;
+    border-left: 8px solid #27AE60;
+    padding: 8px 16px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-radius: 0 16px 16px 0;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.08);
+}
+.platos-lista {
+    list-style: none;
+    padding: 0 0 0 12px;
+    margin-bottom: 0;
+}
+.platos-lista li {
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border-left: 4px solid #C0392B;
+    box-shadow: 0 1px 4px rgba(192,57,43,0.07);
+    font-size: 1.1rem;
+}
+.menu-section {
+    background: #F4F4F4;
+    border-radius: 18px;
+    padding: 32px 18px;
+    box-shadow: 0 4px 24px rgba(39,174,96,0.07);
+}
+footer {
+    background: #C0392B !important;
+    color: #fff !important;
+}
+.text-center a {
+    color: #27AE60;
+    font-weight: bold;
+}
+.text-center a:hover {
+    color: #C0392B;
+}
+
+/* --- NUEVOS ESTILOS PARA MENÚ DIGITAL INTERACTIVO --- */
+
+#categorias {
+    margin-bottom: 2rem;
+}
+.categoria-btn {
+    background: rgba(255,255,255,0.85);
+    color: #C0392B;
+    border: 2px solid #27AE60;
+    border-radius: 16px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.10);
+    transition: transform 0.1s, box-shadow 0.1s, background 0.2s, color 0.2s;
+    width: 100%;
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: normal;
+    line-height: 1.1;
+    overflow: hidden;
+}
+.categoria-btn:hover, .categoria-btn.active {
+    background: #27AE60;
+    color: #fff;
+    border-color: #27AE60;
+}
+
+#categorias .categoria-col {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 767px) {
+    #categorias {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #categorias .categoria-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+        box-sizing: border-box;
+    }
+    .categoria-btn {
+        font-size: 1rem;
+        height: 54px;
+        min-height: 54px;
+        max-height: 54px;
+    }
+}
+@media (min-width: 768px) {
+    #categorias .categoria-col {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+/* Pantalla completa para platos */
+#platos.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #C0392B 60%, #27AE60 100%);
+    z-index: 2000;
+    overflow-y: auto;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    margin: 0;
+    box-shadow: 0 0 0 100vw rgba(0,0,0,0.15);
+    display: block;
+}
+#volver-categorias {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2100;
+    background: #27AE60;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.13);
+    transition: background 0.2s;
+}
+#volver-categorias:hover {
+    background: #C0392B;
+}
+
+#platos {
+    margin-top: 1.5rem;
+}
+.plato-card {
+    background: #23272b;
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(39,174,96,0.08);
+    padding: 1rem 0.5rem 0.7rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 320px;
+    height: 100%;
+    transition: box-shadow 0.2s;
+}
+.plato-card:hover {
+    box-shadow: 0 6px 24px rgba(192,57,43,0.13);
+}
+.plato-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.plato-nombre {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 6px;
+    text-align: center;
+}
+.plato-precio {
+    font-size: 1.1rem;
+    color: #27AE60;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.plato-detalles {
+    color: #fff !important;
+    background: #333a40 !important;
+}
+
+/* Responsive grid para platos */
+@media (max-width: 767px) {
+    #platos .col-md-4, #platos .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .plato-card {
+        min-height: 260px;
+        padding: 1rem 0.3rem 0.7rem 0.3rem;
+    }
+    .plato-img {
+        aspect-ratio: 4/2;
+    }
+}
+@media (min-width: 768px) {
+    #platos .col-md-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
+.logo-principal {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 4px solid #27AE60;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.logo-categoria {
+    width: 110px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 3px solid #C0392B;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.main-bg-frutas {
+    background-image: url('./imagenes/fondo-vector-frutas-hojas-verano.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 18px;
+    min-height: 320px;
+    padding: 2rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .main-bg-frutas {
+        padding: 1.2rem 0.3rem;
+        min-height: 220px;
+        border-radius: 12px;
+    }
+}
